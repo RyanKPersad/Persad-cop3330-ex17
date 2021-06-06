@@ -15,6 +15,8 @@ public class App
         String H;
         System.out.println("Enter your gender\nAre you male or female?");
         String Gender = myObj.nextLine();
+
+        //Establishes whether user is male or female
         r = (Gender.equalsIgnoreCase("male"))? ".73":".66";
 
         System.out.println("Enter your weight");
@@ -28,6 +30,7 @@ public class App
         System.out.println("How many hours has it been since your last drink?");
         H = myObj.nextLine();
 
+        //Checks to see if the user had entered a non-numeric value
         if(!W.matches("[0-9.]+")|!A.matches("[0-9.]+")|!H.matches("[0-9.]+")){
             System.out.println("You have entered a non-numeric value\nCan not Compute" );
 
