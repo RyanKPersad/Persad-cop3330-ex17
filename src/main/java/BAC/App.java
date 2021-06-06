@@ -18,10 +18,8 @@ public class App
         String Gender = myObj.nextLine();
         r = (Gender.equalsIgnoreCase("male"))? ".73":".66";
 
-
-
-      System.out.println("Enter your weight");
-       W = myObj.nextLine();
+        System.out.println("Enter your weight");
+        W = myObj.nextLine();
 
 
         System.out.println("How many ounces of alcohol did you have?");
