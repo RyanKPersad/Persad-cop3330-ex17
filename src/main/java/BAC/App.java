@@ -10,7 +10,6 @@ public class App
     static Scanner myObj = new Scanner(System.in);
     public static void main( String[] args )
     {
-        String W;
         String r;
         String A;
         String H;
@@ -19,7 +18,7 @@ public class App
         r = (Gender.equalsIgnoreCase("male"))? ".73":".66";
 
         System.out.println("Enter your weight");
-        W = myObj.nextLine();
+        String W = myObj.nextLine();
 
 
         System.out.println("How many ounces of alcohol did you have?");
